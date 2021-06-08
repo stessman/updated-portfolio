@@ -1,0 +1,46 @@
+:root{
+--darkBlue: #293B5F;
+--darkishBlue: #47597E;
+--lightBlue: #DBE6FD;
+}
+
+a .navlink{
+    color:  var(--lightBlue);
+}
+
+body {
+background-color: var(--lightBlue);
+}
+
+#aboutMeArea img{
+    display: inline;
+    margin: 3px;
+    float: left;
+    height: 150px;
+    width: 150px;
+}
+
+#mainWork img{
+    height: 500px;
+    width: 80%;
+    min-width: 300px;
+}
+
+.row{
+ margin-bottom: 3px;
+}
+
+.projectName{ 
+    color: var(--darkishBlue);
+    font-size: 26px;
+}
+
+.subWork img { 
+ width: 300px;
+ height:250px;
+
+}
+
+#contactMeArea p,a {
+font-size: 24px;
+}
